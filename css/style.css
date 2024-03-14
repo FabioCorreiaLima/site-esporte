@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: gray;
+    background-image: url('https://lncimg.lance.com.br/cdn-cgi/image/width=893,height=558,fit=contain,gravity=0.5x0.5,quality=75,format=webp/uploads/2024/03/000_34LJ7DN-scaled-aspect-ratio-512-320.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+ul {
+
+    list-style: none;
+    
+}
+ul li {
+    background-color: black;
+    display: inline;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.container-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-section h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.container-section h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:brown;
+    margin-left: 100px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    width: 600px;
+    height: 300px;
+}
+.texto p {
+    font-size: 18px;
+    color: aliceblue;
+    align-items: flex-end;
+    margin-left: 180px;
+
+
+}
